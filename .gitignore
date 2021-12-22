@@ -1,0 +1,13 @@
+# A git ignore file prevents specific files from getting committed into a git repository.
+# Local terraform directories
+**/.terraform/*
+
+# State files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+*.log
+
+# Sensitive data
+*.tfvars
